@@ -14,6 +14,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // sonucGoster fonksiyonunu burada çağırdım ve sonucGosterID adıyla bir notif yaratıldı.
+        // NotificationCenter dinlemeye açıldı
         NotificationCenter.default.addObserver(self, selector: #selector(sonucGoster(data:)), name: NSNotification.Name(rawValue: "sonucGosterID"), object: nil)
    
     }
@@ -22,7 +24,6 @@ class ViewController: UIViewController {
         
         if let userInfo = data.userInfo{
             let sonuc = userInfo["mergeData"] as! String
-            
             self.lblSonuc.text = "Girilen Text: " + String(sonuc)
         }
         
