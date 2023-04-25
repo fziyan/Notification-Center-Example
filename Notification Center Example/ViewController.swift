@@ -8,10 +8,24 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var lblSonuc: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        NotificationCenter.default.addObserver(self, selector: #selector(sonucGoster(data:)), name: NSNotification.Name(rawValue: "sonucGosterID"), object: nil)
+   
+    }
+    
+    @objc func sonucGoster(data:Notification){
+        
+        if let userInfo = data.userInfo{
+            let sonuc = userInfo["mergeData"] as! String
+            
+            self.lblSonuc.text = "Girilen Text: " + String(sonuc)
+        }
+        
     }
 
 
