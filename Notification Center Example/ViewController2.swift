@@ -18,7 +18,7 @@ class ViewController2: UIViewController {
         
         // txt1 ve txt2 ile girilen textler key value şeklinde post edilmesi durumu yapılıyor.
         // sonucGosterID'li notification tetikleniyor ve mergeData datası gönderiliyor.
-        NotificationCenter.default.post(name: NSNotification.Name(rawValue: "sonucGosterID"), object: nil, userInfo: ["mergeData": mergeData])
+        NotificationCenter.default.post(name: .sonucGoster, object: nil, userInfo: ["mergeData": mergeData])
         
         self.dismiss(animated: true, completion: nil)
     }

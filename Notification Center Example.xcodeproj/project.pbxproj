@@ -17,6 +17,7 @@
 		7E8EDD5D29F722F9008B83C3 /* Notification_Center_ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8EDD5C29F722F9008B83C3 /* Notification_Center_ExampleUITests.swift */; };
 		7E8EDD5F29F722F9008B83C3 /* Notification_Center_ExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8EDD5E29F722F9008B83C3 /* Notification_Center_ExampleUITestsLaunchTests.swift */; };
 		7E8EDD6C29F72465008B83C3 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8EDD6B29F72465008B83C3 /* ViewController2.swift */; };
+		7E8EDD6E29F94AAB008B83C3 /* NSNotificationName+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8EDD6D29F94AAB008B83C3 /* NSNotificationName+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		7E8EDD5C29F722F9008B83C3 /* Notification_Center_ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification_Center_ExampleUITests.swift; sourceTree = "<group>"; };
 		7E8EDD5E29F722F9008B83C3 /* Notification_Center_ExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification_Center_ExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		7E8EDD6B29F72465008B83C3 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		7E8EDD6D29F94AAB008B83C3 /* NSNotificationName+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSNotificationName+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				7E8EDD3B29F722F8008B83C3 /* AppDelegate.swift */,
 				7E8EDD3D29F722F8008B83C3 /* SceneDelegate.swift */,
 				7E8EDD3F29F722F8008B83C3 /* ViewController.swift */,
+				7E8EDD6D29F94AAB008B83C3 /* NSNotificationName+Extension.swift */,
 				7E8EDD6B29F72465008B83C3 /* ViewController2.swift */,
 				7E8EDD4129F722F8008B83C3 /* Main.storyboard */,
 				7E8EDD4429F722F9008B83C3 /* Assets.xcassets */,
@@ -264,6 +267,7 @@
 				7E8EDD4029F722F8008B83C3 /* ViewController.swift in Sources */,
 				7E8EDD6C29F72465008B83C3 /* ViewController2.swift in Sources */,
 				7E8EDD3C29F722F8008B83C3 /* AppDelegate.swift in Sources */,
+				7E8EDD6E29F94AAB008B83C3 /* NSNotificationName+Extension.swift in Sources */,
 				7E8EDD3E29F722F8008B83C3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
